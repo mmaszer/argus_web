@@ -3,8 +3,8 @@
     <head>
         <meta charset="utf-8" />
         <title>Argus-Wand</title>
-        {% load static %}
-        <link rel="stylesheet" type="text/css" href="{% static 'argus_app/site.css' %}" />
+   
+        <link rel="stylesheet" type="text/css" href="site.css" />
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.1/css/bulma.min.css">
         <script defer src="https://use.fontawesome.com/releases/v5.14.0/js/all.js"></script>
     </head>
@@ -13,7 +13,7 @@
             <h1>Argus-Wand</h1>
         </div>     
         <!--<form action={% url 'run' %} method="POST" enctype="multipart/form-data">-->
-            {% csrf_token %}
+            
             <div class="columns" style="margin-top: 0.5%;">
                 <div class="column" style="margin-left: 3%;">    
                     <div id="file-js1">
